@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
+    <Nullable>enable</Nullable>
+	  <PackageId>BasicXmlDatabase.1.0.0</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Ervin Kosch</Authors>
+	  <Company>ErvinTek</Company>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <Description>Library for working with XML databases</Description>
+	  <PackageTags>utilities;helpers;xml;databases</PackageTags>
+	  <RepositoryUrl>https://github.com/tekrat</RepositoryUrl>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+</Project>
