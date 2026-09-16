@@ -1,7 +1,3 @@
-Here is a complete, well-structured `README.md` file for your library. You can save this directly in your project repository.
-
-***
-
 # BasicXmlDatabase
 
 A lightweight, fully asynchronous, thread-safe XML-based database library for C#. It stores data as rows of dynamic key-value pairs (`Dictionary<string, object>`) and provides a simple, LINQ-like API for CRUD operations, bulk updates, and Time-To-Live (TTL) management.
