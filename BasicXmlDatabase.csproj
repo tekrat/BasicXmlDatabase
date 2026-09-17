@@ -1,18 +1,23 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-	  <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <Nullable>enable</Nullable>
-	  <PackageId>BasicXmlDatabase.1.0.0</PackageId>
-	  <Version>1.0.0</Version>
-	  <Authors>Ervin Kosch</Authors>
-	  <Company>ErvinTek</Company>
+	  <PackageId>BasicXmlDatabase</PackageId>
+	  <Version>1.0.1</Version>
+	  <Authors>tekrat</Authors>
+	  <Company>ErvTek</Company>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <Description>Library for working with XML databases</Description>
-	  <PackageTags>utilities;helpers;xml;databases</PackageTags>
-	  <RepositoryUrl>https://github.com/tekrat</RepositoryUrl>
+	  <PackageTags>utilities;helpers;xml;databases;xml</PackageTags>
+	  <RepositoryUrl>https://github.com/tekrat/BasicXmlDatabase</RepositoryUrl>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Actually includes the file in the .nupkg at the root level -->
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>  
 </Project>
